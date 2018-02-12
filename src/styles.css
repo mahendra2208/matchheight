@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.card{
+    padding: 20px;
+    background: #777;
+}
+
+.card h4{
+    color: #fcfcfc;
+    text-align:center;
+
+}
+
+.card p{
+    color:#ddd;
+    text-align:justify;
+}

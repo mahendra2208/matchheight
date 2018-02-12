@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MatchHeightDirective } from './match-height.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MatchHeightDirective
   ],
   imports: [
     BrowserModule
